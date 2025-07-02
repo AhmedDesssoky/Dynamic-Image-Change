@@ -1,4 +1,8 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     min-height: 100vh;
@@ -6,10 +10,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Arial, sans-serif;
 }
 
 .section {
-    
     margin-top: 100px;
     margin-right: 150px;
     width: 100%;
