@@ -40,6 +40,7 @@ body {
     align-items: center;
     position: relative;
     min-height: 500px;
+    border-radius:20px
 }
 
 #dynamic-image {
@@ -125,8 +126,7 @@ body {
 
 .options button.selected {
     background: #32CD33;
-    
-    border-color: #32CD33;
+    border-color: #32CD33 !important;
 }
 
 

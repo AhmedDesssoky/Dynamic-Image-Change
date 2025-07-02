@@ -6,19 +6,19 @@ document.addEventListener("DOMContentLoaded", function () {
   const mediaMap = {
     Sales_Hub: {
       image:
-        "https://dapulse-res.cloudinary.com/image/upload/v1741864322/projects.png",
+        "https://olqan.com/wp-content/uploads/2025/06/Sales.png",
     },
     Project_Suite: {
       image:
-        "https://dapulse-res.cloudinary.com/image/upload/v1742132121/Task.png",
+        "https://olqan.com/wp-content/uploads/2025/06/project.png",
     },
     HR_Portal: {
       image:
-        "https://dapulse-res.cloudinary.com/image/upload/v1741864322/projects.png",
+        "https://olqan.com/wp-content/uploads/2025/06/Hr.png",
     },
     Finance_Console: {
       image:
-        "https://dapulse-res.cloudinary.com/image/upload/v1742132119/Marketing.png",
+        "https://olqan.com/wp-content/uploads/2025/06/Finance-Console.png",
     },
     Procurement: {
       image:
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Default media
   const defaultImage =
-    "https://dapulse-res.cloudinary.com/image/upload/v1742137325/Blur.png";
+    "https://olqan.com/wp-content/uploads/2025/06/Sales.png";
   dynamicImage.src = defaultImage;
 
   // Track selected buttons
@@ -144,13 +144,14 @@ document.addEventListener("DOMContentLoaded", function () {
     // Tooltip for preview
  button.addEventListener("mouseenter", function () {
   const tooltip = document.createElement("div");
-  tooltip.className = "tooltip";
+  tooltip.className = "c-tooltip";
   tooltip.style.position = "absolute";
   tooltip.style.background = "rgba(0, 0, 0, 0.8)";
   tooltip.style.color = "white";
   tooltip.style.padding = "10px 10px";
   tooltip.style.borderRadius = "4px";
   tooltip.style.zIndex = "1000";
+  tooltip.style.fontSize = "14px";
   
   
   tooltip.textContent = this.getAttribute("data-tooltip") || this.textContent;
@@ -165,7 +166,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
     button.addEventListener("mouseleave", function () {
-      const tooltip = document.querySelector(".tooltip");
+      const tooltip = document.querySelector(".c-tooltip");
       if (tooltip) tooltip.remove();
     });
   });
