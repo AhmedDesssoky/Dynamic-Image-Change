@@ -1,19 +1,19 @@
 
 
-/* body {
+body {
     min-height: 100vh;
     background-color: #e6e6fa;
     display: flex;
     justify-content: center;
     align-items: center;
-} */
+}
 
 .section {
-    background-color: #e6e6fa;
+    
     margin-top: 100px;
     margin-right: 150px;
     width: 100%;
-    /* max-width: 1200px; */
+    max-width: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
