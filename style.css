@@ -6,15 +6,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Arial, sans-serif;
 } */
 
 .section {
-    
+    background-color: #e6e6fa;
     margin-top: 100px;
     margin-right: 150px;
     width: 100%;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     display: flex;
     justify-content: center;
     align-items: center;
