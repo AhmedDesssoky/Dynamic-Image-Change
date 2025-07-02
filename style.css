@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;
-}
+} */
 
 .section {
     margin-top: 100px;
